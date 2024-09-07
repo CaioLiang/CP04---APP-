@@ -10,9 +10,10 @@ function App() {
     <BrowserRouter>
     <Suspense fallback={<>Carregando</>}>
       <Routes>
+        
         <Route path="/" element = {<LazyHome/>}/>
         <Route path="/perfil" element = {<LazyProfile/>}/>
-        <Route path="/listfill" element = {<LazyList_Fill/>}/>
+        <Route path="/novalista" element = {<LazyList_Fill/>}/>
 
     </Routes>
     </Suspense>

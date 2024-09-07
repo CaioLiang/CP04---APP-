@@ -1,9 +1,7 @@
-import { BiHomeAlt } from "react-icons/bi";
-import { BiSearch } from "react-icons/bi";
-import { BiHeart } from "react-icons/bi";
-import { BiUserCircle } from "react-icons/bi";
-import { StyledMenu, StyledMenuItem, StyledWrapperMenu } from "./Menu.style";
-import { Link } from "react-router-dom";
+import { BiHomeAlt } from 'react-icons/bi';
+import { GoChecklist } from 'react-icons/go';
+import { BiUserCircle } from 'react-icons/bi';
+import { StyledMenu, StyledMenuItem, StyledWrapperMenu, StyledLink } from './Menu.style';
 
 export const Menu = () => {
     return (
@@ -11,20 +9,16 @@ export const Menu = () => {
             <StyledWrapperMenu>
                 <StyledMenuItem>
                     <BiHomeAlt size="1.5rem" color="#38aede" />
-                    <Link to="/">Início</Link>
-                    </StyledMenuItem>
+                    <StyledLink to="/">Home</StyledLink>
+                </StyledMenuItem>
                 <StyledMenuItem>
-                    <BiSearch size="1.5rem" color="#38aede" />
-                    <Link to="/busca">Busca</Link>
-                    </StyledMenuItem>
-                <StyledMenuItem>
-                    <BiHeart size="1.5rem" color="#38aede" />
-                    <Link to="/fav">Favoritos</Link>
-                    </StyledMenuItem>
+                    <GoChecklist size="1.5rem" color="#38aede" />
+                    <StyledLink to="/novalista">Nova Lista</StyledLink>
+                </StyledMenuItem>
                 <StyledMenuItem>
                     <BiUserCircle size="1.5rem" color="#38aede" />
-                    <Link to="/perfil">Perfil</Link>
-                    </StyledMenuItem>
+                    <StyledLink to="/perfil">Perfil</StyledLink>
+                </StyledMenuItem>
             </StyledWrapperMenu>
         </StyledMenu>
     );

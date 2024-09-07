@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const StyledMenu = styled.nav`
     display: flex;
@@ -22,5 +23,13 @@ export const StyledMenuItem = styled.li`
     & a { //Aqui estamos estilizando a tag dentro do li, no caso o <a>
         font-size: 0.8rem;
         color: #1f1e31;
+    }
+`;
+
+export const StyledLink = styled(Link)`
+    color: #38aede !important; 
+    
+    &:hover {
+        color: #082d70;  
     }
 `;
