@@ -6,6 +6,9 @@ import { StyledMenu, StyledMenuItem, StyledWrapperMenu, StyledLink } from './Men
 export const Menu = () => {
     return (
         <StyledMenu>
+        <div>
+        
+        </div>
             <StyledWrapperMenu>
                 <StyledMenuItem>
                     <BiHomeAlt size="1.5rem" color="#38aede" />
