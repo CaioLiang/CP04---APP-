@@ -1,9 +1,10 @@
 import {Layout} from "../../components/Layout/Layout";
+import {StyledH1 } from "../../styles/Colors"
 
 export default function Profile(){
   return (
     <Layout>
-    <h1>Profile</h1>
+    <StyledH1>Profile</StyledH1>
     </Layout>
   );
 }

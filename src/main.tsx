@@ -5,7 +5,7 @@ import { GlobalStyles } from "./styles/GlobalStyles.ts";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <GlobalStyles /> {/* SEMPRE colocar antes do <App /> */}
+    <GlobalStyles /> 
     <App />
   </StrictMode>
 );

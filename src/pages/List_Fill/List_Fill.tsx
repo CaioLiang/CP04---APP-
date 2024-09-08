@@ -1,9 +1,10 @@
 import { Layout } from "../../components/Layout/Layout";
+import {StyledH1 } from "../../styles/Colors"
 
 export default function List_Fill(){
     return (
         <Layout>
-            <h1>Nova Lista</h1>
+            <StyledH1>Nova Lista</StyledH1>
         </Layout>
     );
 }
