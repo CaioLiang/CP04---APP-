@@ -5,6 +5,7 @@ export default function Home () {
   return (
     <Layout>
       <StyledH1>Home</StyledH1>
+      
     </Layout>
   );
 

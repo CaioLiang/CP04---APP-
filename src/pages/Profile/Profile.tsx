@@ -4,7 +4,7 @@ import {StyledH1 } from "../../styles/Colors"
 export default function Profile(){
   return (
     <Layout>
-    <StyledH1>Profile</StyledH1>
+    <StyledH1>Perfil</StyledH1>
     </Layout>
   );
 }
