@@ -1,4 +1,4 @@
-import {StyledForm, StyledDiv } from "./Formulario.style.ts";
+import {StyledForm } from "./Formulario.style.ts";
 
 interface FormularioProps {
     type: string;
@@ -9,13 +9,11 @@ interface FormularioProps {
 
 export const Formulario: React.FC<FormularioProps> = ({ type, id, name, ...rest }) => {
     return (
-        <StyledDiv>
             <StyledForm
                 type={type}
                 id={id}
                 name={name}
                 {...rest}
             />
-        </StyledDiv>
     );
 };
